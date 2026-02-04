@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sanuj | Full Stack Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+  <!-- BACK TO TOP BUTTON -->
+  <div class="back-to-top" id="backToTop">
+    <i class="fas fa-arrow-up"></i>
+  </div>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <h2 class="logo">Sanuj.</h2>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#certifications">Certifications</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><button id="theme-toggle" class="theme-toggle" aria-label="Toggle Dark Mode"><i
+            class="fas fa-moon"></i></button></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="hero-left">
+      <p class="intro">Hey, I’m Sanuj 👋</p>
+      <h1>
+        Full Stack<br>
+        <span class="typing"></span>
+      </h1>
+
+      <!--<p class="desc">
+      I build clean, modern and user-friendly websites using HTML,
+      CSS and JavaScript. Fresher developer focused on real-world projects.
+    </p>-->
+
+      <div class="buttons">
+        <a href="#contact" class="primary-btn">Get in Touch</a>
+        <a href="#projects" class="secondary-btn">View Projects</a>
+      </div>
+    </div>
+
+    <div class="hero-right">
+      <div class="image-circle">
+        <img src="image/background2.png" alt="Profile">
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="skills">
+    <h2>Skills</h2>
+
+    <div class="skills-container">
+      <div class="skill-box skill-git">
+        <i class="fab fa-git-alt skill-icon" aria-hidden="true"></i>
+        <span class="skill-text">Git & GitHub</span>
+      </div>
+      <div class="skill-box skill-react">
+        <i class="fab fa-react skill-icon" aria-hidden="true"></i>
+        <span class="skill-text">React</span>
+      </div>
+      <div class="skill-box skill-next">
+        <span class="skill-badge">Next.js</span>
+        <span class="skill-text">Next.js</span>
+      </div>
+      <div class="skill-box skill-mdb">
+        <span class="skill-badge">MDB</span>
+        <span class="skill-text">MongoDB</span>
+      </div>
+      <div class="skill-box skill-java">
+        <i class="fab fa-java skill-icon" aria-hidden="true"></i>
+        <span class="skill-text">Java</span>
+      </div>
+
+      <div class="skill-box skill-express">
+        <i class="fab fa-node-js skill-icon" aria-hidden="true"></i>
+        <span class="skill-text">Express</span>
+      </div>
+
+      <div class="skill-box skill-html">
+        <i class="fab fa-html5 skill-icon" aria-hidden="true"></i>
+        <span class="skill-text">HTML5</span>
+      </div>
+      <div class="skill-box skill-css">
+        <i class="fab fa-css3-alt skill-icon" aria-hidden="true"></i>
+        <span class="skill-text">CSS3</span>
+      </div>
+      <div class="skill-box skill-js">
+        <i class="fab fa-js-square skill-icon" aria-hidden="true"></i>
+        <span class="skill-text">JavaScript</span>
+      </div>
+      <div class="skill-box skill-responsive">
+        <i class="fas fa-mobile-alt skill-icon" aria-hidden="true"></i>
+        <span class="skill-text">Responsive Design</span>
+      </div>
+      <div class="skill-box skill-aws">
+        <i class="fab fa-aws skill-icon" aria-hidden="true"></i>
+        <span class="skill-text">AWS</span>
+      </div>
+      <div class="skill-box skill-docker">
+        <i class="fab fa-docker skill-icon" aria-hidden="true"></i>
+        <span class="skill-text">Docker</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+
+    <div class="project-container">
+      <div class="project-card">
+        <h3>Banking System</h3>
+        <p class="project-name">Banking System</p>
+        <p>Deposit, Withdraw, Check Balance, and Transaction History.</p>
+        <span>HTML • CSS • JS</span>
+        <div class="project-links">
+          <a href="#" class="project-link">View Project →</a>
+          <a href="https://sanujtiwari.github.io/Banking-System/" target="_blank" rel="noopener noreferrer"
+            class="project-github" title="Banking System on Site">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <h3>Stopwatch </h3>
+        <p class="project-name">Stopwatch </p>
+        <p>Stopwatch with start, stop, reset and lap features.</p>
+        <span>HTML • CSS • JS</span>
+        <div class="project-links">
+          <a href="#" class="project-link">View Project →</a>
+          <a href=" https://sanujtiwari.github.io/StopWatch/" target="_blank" rel="noopener noreferrer"
+            class="project-github" title="Stopwatch on Site">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <h3>Postion Change</h3>
+        <p class="project-name">Position Change</p>
+        <p>Change the postion of boxes by clicking on one.</p>
+        <span>MERN </span>
+        <div class="project-links">
+          <a href="#" class="project-link">View Project →</a>
+          <a href=" https://sanujtiwari.github.io/Position-Change/" target="_blank" rel="noopener noreferrer"
+            class="project-github" title="Position Change on Site">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+      </div>
+      <div class="project-card">
+        <h3>Power Calculator</h3>
+        <p class="project-name">Power Calculator</p>
+        <p>Calculate Square | Cube | Power 4</p>
+        <span>HTML • CSS • JS</span>
+        <div class="project-links">
+          <a href="#" class="project-link">View Project →</a>
+          <a href="https://sanujtiwari.github.io/Power-Calculator/" target="_blank" rel="noopener noreferrer"
+            class="project-github" title="Power Calculator on Site">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+      </div>
+      <div class="project-card">
+        <h3>Quiz app</h3>
+        <p class="project-name">Quiz app</p>
+        <p>Quiz app with multiple choice questions.</p>
+        <span>HTML • CSS • JS</span>
+        <div class="project-links">
+          <a href="#" class="project-link">View Project →</a>
+          <a href=" https://sanujtiwari.github.io/quiz-app/" target="_blank" rel="noopener noreferrer"
+            class="project-github" title="Quiz app on Site">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+      </div>
+      <div class="project-card">
+        <h3>Project Manager</h3>
+        <p class="project-name">Project Manager</p>
+        <p>Project Manager , add projects</p>
+        <span>HTML • CSS • JS</span>
+        <div class="project-links">
+          <a href="#" class="project-link">View Project →</a>
+          <a href=" https://sanujtiwari.github.io/Project-Manager/" target="_blank" rel="noopener noreferrer"
+            class="project-github" title="Project Manager on Site">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+      </div>
+      <div class="project-card">
+        <h3>BMI Calculator</h3>
+        <p class="project-name">BMI Calculator</p>
+        <p>Calculte BMI with height and weight.</p>
+        <span>HTML • CSS • JS</span>
+        <div class="project-links">
+          <a href="#" class="project-link">View Project →</a>
+          <a href=" https://sanujtiwari.github.io/BMI-Calculator/" target="_blank" rel="noopener noreferrer"
+            class="project-github" title="BMI Calculator on Site">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+      </div>
+      <div class="project-card">
+        <h3>Color Changer</h3>
+        <p class="project-name">Color Changer</p>
+        <p>By just clicking on any box, change the color of box.</p>
+        <span>HTML • CSS • JS</span>
+        <div class="project-links">
+          <a href="#" class="project-link">View Project →</a>
+          <a href=" https://sanujtiwari.github.io/Colors-Changer/" target="_blank" rel="noopener noreferrer"
+            class="project-github" title="BMI Calculator on Site">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+      </div>
+    <div class="project-card">
+        <h3>Form Page</h3>
+        <p class="project-name">Form Page</p>
+        <p>Put you details in page and do SignUp.</p>
+        <span>HTML • CSS • JS</span>
+        <div class="project-links">
+          <a href="#" class="project-link">View Project →</a>
+          <a href="  https://sanujtiwari.github.io/Form-Page/" target="_blank" rel="noopener noreferrer"
+            class="project-github" title="BMI Calculator on Site">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+      </div>
+      <div class="project-card">
+        <h3>To-Do App</h3>
+        <p class="project-name">To-Do App</p>
+        <p>Add you dask, edit, save and delete.</p>
+        <span>HTML • CSS • JS</span>
+        <div class="project-links">
+          <a href="#" class="project-link">View Project →</a>
+          <a href=" https://sanujtiwari.github.io/To-Do-List/" target="_blank" rel="noopener noreferrer"
+            class="project-github" title="BMI Calculator on Site">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+        
+  </section>
+
+
+  <!-- EDUCATION -->
+  <section id="education" class="education">
+    <h2>Education</h2>
+    <div class="education-item">
+      <h3>Senior Secondary (12th)</h3>
+      <p>Annada College (Hazaribag, Jharkhand) — 2021 - 2023</p>
+    </div>
+    <br>
+    <div class="education-item">
+      <h3>Bachelor in Computer Science and Engineering</h3>
+      <p>Lovely Professional University (Jalandhar, Punjab) — 2023 - present</p>
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS -->
+  <section id="certifications" class="certifications">
+    <h2>Certifications</h2>
+    <ul>
+      <li>Full Stack Web Development Certification – Meta (Coursera)</li>
+      <li>JavaScript Developer Certification – Udemy</li>
+      <li>Frontend Web Development Certification – freeCodeCamp</li>
+      <li>React.js Developer Certification – Meta (Coursera)</li>
+      <li>Git & GitHub Version Control Certification – Google (Coursera)</li>
+    </ul>
+  </section>
+
+
+
+  <!-- RESUME / DOWNLOAD -->
+  <section id="resume" class="resume">
+    <h2>Resume</h2>
+    <p>Download my resume for full details.</p>
+    <a href="Sanuj CV.pdf" download class="primary-btn">Download Resume</a>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <p class="contact-subtitle">Let's connect and create something amazing together!</p>
+
+    <form id="contact-form">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-content">
+      <p>&copy; 2026 Made with ❤️ by Sanuj. All rights reserved.</p>
+
+      <div class="social-links">
+        <!-- GitHub -->
+        <a href="https://github.com/SanujTiwari" target="_blank" rel="noopener noreferrer" class="social-icon"
+          title="Visit my GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+
+        <!-- LinkedIn -->
+        <a href="https://www.linkedin.com/in/sanuj-tiwari14/" target="_blank" rel="noopener noreferrer"
+          class="social-icon" title="Connect on LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+
+        <!-- WhatsApp -->
+        <a href="https://wa.me/+917366891704" target="_blank" rel="noopener noreferrer" class="social-icon"
+          title="Message on WhatsApp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+        <!--Instagram-->
+        <a href="https://www.instagram.com/sanuj__88?igsh=MTU2Nmdpb2VlM21sYw==" target="_blank"
+          rel="noopener noreferrer" class="social-icon" title="Connect on Instagram">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+
+
+</body>
+
+</html>
